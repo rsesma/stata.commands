@@ -66,9 +66,9 @@ public class Commands {
     		    		
             try {
             	// connect to database
-                String url = "jdbc:mariadb://localhost:3306/commands";
+                String url = "jdbc:mariadb://192.168.1.10:3306/commands";
                 Properties info = new Properties();
-                info.setProperty("user", "rsesma");
+                info.setProperty("user", "roberto");
                 info.setProperty("password", "Amsesr.1977");
                 Connection conn = DriverManager.getConnection(url, info);
                 // get command data
